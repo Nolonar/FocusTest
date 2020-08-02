@@ -12,7 +12,7 @@ Keeps track of Windows apps that have focus.
 ## How to use
 1. Launch FocusTest
 2. Work as usual
-3. FocusTest will list all apps that have taken focus since it launched  
+3. FocusTest will list all apps that have taken focus since it launched (newest apps with focus are on top)  
 ![Screenshot of FocusTest][3]
 4. Compare PID with Task Manager (Ctrl + Shift + Esc)  
 ![Screenshot of Task Manager][4]
