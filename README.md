@@ -18,7 +18,7 @@ Keeps track of Windows apps that have focus.
 
 
   [1]: https://github.com/Nolonar/FocusTest/workflows/.NET%20Core%20Desktop/badge.svg
-  [2]: /Nolonar/FocusTest/releases/latest/download/Binaries.zip
+  [2]: https://github.com/Nolonar/FocusTest/releases/latest/download/Binaries.zip
   [3]: 2020-08-02_005555.png
   [4]: 2020-08-02_005626.png
   [5]: https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x64-installer
