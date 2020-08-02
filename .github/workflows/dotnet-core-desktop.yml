@@ -75,8 +75,8 @@ jobs:
       uses: microsoft/setup-msbuild@2008f912f56e61277eefaac6d1888b750582aa16
 
     # Restore the application to populate the obj folder with RuntimeIdentifiers
-    - name: Restore the application
-      run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
+    - name: Build the application
+      run: msbuild $env:Solution_Name /p:Configuration=$env:Configuration /p:OutputPath=bin/Release
       env:
         Configuration: ${{ matrix.configuration }}
 
