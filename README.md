@@ -1,6 +1,9 @@
 # Focus-Test
 Keeps track of Windows apps that have focus.
 
+## Requirements
+- .NET Core Desktop Runtime 3.1 or later ([64 bit][3] | [32 bit][4])
+
 ## How to use
 1. Launch FocusTest
 2. Work as usual
@@ -12,3 +15,5 @@ Keeps track of Windows apps that have focus.
 
   [1]: 2020-08-02_005555.png
   [2]: 2020-08-02_005626.png
+  [3]: https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x64-installer
+  [4]: https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.6-windows-x86-installer
