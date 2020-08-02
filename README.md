@@ -1,4 +1,4 @@
-# Focus-Test
+# FocusTest
 Keeps track of Windows apps that have focus.
 
 | Project   | Build status            | Latest release |
@@ -7,6 +7,7 @@ Keeps track of Windows apps that have focus.
 
 ## Requirements
 - .NET Core Desktop Runtime 3.1 or later ([64 bit][5] | [32 bit][6])
+- Windows (only Windows 10 tested). FocusTest uses Windows APIs to detect change in focus and retrieve the PID (Process ID) associated to the window that received focus.
 
 ## How to use
 1. Launch FocusTest
@@ -15,6 +16,13 @@ Keeps track of Windows apps that have focus.
 ![Screenshot of FocusTest][3]
 4. Compare PID with Task Manager (Ctrl + Shift + Esc)  
 ![Screenshot of Task Manager][4]
+
+## How to build
+### Requirements
+- Visual Studio Community (not to be confused with Visual Studio Code)
+- .NET Core SDK 3.1 or later
+
+Simply open the `FocusTest.sln` file with Visual Studio, then click on "Build" > "Build Solution". The binaries will be located in `\bin\Debug` or `\bin\Release`.
 
 
   [1]: https://github.com/Nolonar/FocusTest/workflows/.NET%20Core%20Desktop/badge.svg
